@@ -24,81 +24,93 @@
 </head>
 
 <body>
-  <nav class="navbar container">
-    <div class="container-icon">
-      <a href="#home">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
         <img loading="lazy" class="primary-icon"
           src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconolg.webp"
-          alt="logo LG soporte técnico" />
+          alt="logo LG soporte técnico"
+          height="42px"      
+          />
       </a>
-    </div>
-    <ul class="nav-list" id="navi-list">
-      <li class="list-item">
-        <a href="#home">Inicio</a>
-      </li>
-      <li class="list-item">
-        <a href="#services">Servicios</a>
-      </li>
-      <li class="list-item">
-        <a href="#location">Ubicación</a>
-      </li>
-      <li class="list-item">
-        <a href="#contact">Contacto</a>
-      </li>
-      <li class="list-item">
-        <div class="contact">
-          <a href="https://wa.me/573143402137/?text=Hola%20servicio%20técnico%20LG%20Bogotá" target="_blank">
-            <img loading="lazy" src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconowhatsapp.webp"
-              alt="icono whatsapp" />
-            WhatsApp
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="lnav-item">
+            <a class="nav-link" href="#location">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+          <a class="btn btn-danger d-flex justify-content-center align-items-center" href="https://wa.me/573143402137/?text=Hola%20servicio%20técnico%20LG%20Bogotá" target="_blank">
+            <div class="me-1">
+              <img
+                loading="lazy"
+                src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconowhatsapp.webp"
+                alt="icono whatsapp"
+                width="16px"
+              />
+            </div>
+            <div class="flex-grow-0">
+              WhatsApp
+            </div>
           </a>
-        </div>
-      </li>
-    </ul>
-    <div class="menu" id="toggle-button">
-      <div class="menu-line"></div>
-      <div class="menu-line"></div>
-      <div class="menu-line"></div>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <header class="header">
-    <div class="carousel slide header-carousel" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/tecnico-arreglando-lavadora.webp"
-            alt="First slide">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/tecnico-arreglando-lavadora.webp" class="d-block w-100" alt="Lavadora LG">
+        <div class="carousel-caption d-none d-sm-block">
+          <h2>Servicio técnico LG</h2>
+          <h4 class="w-auto mx-auto">Nos desplazamos a su domicilio para revisar su electrodomésticos</h4>
+          <a class="btn btn-danger d-flex justify-content-center align-items-center w-50 mx-auto" href="https://wa.me/573143402137/?text=Hola%20servicio%20técnico%20LG%20Bogotá" target="_blank">
+            <div class="me-1">
+              <img loading="lazy" src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconowhatsapp.webp" alt="icono whatsapp" width="16px">
+            </div>
+            <div class="flex-grow-0">
+              WhatsApp
+            </div>
+          </a>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100"
-            src="https://www.lg.com/se/lg-experience/images/lg-lab/2019/thinq-smart-home/ces-2019-smart-home-systems-go-further-with-lg-thinq_key-visual.jpg"
-            alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100"
-            src="https://img.freepik.com/fotos-premium/ingeniero-reparacion-profesional-reparando-tv-rota_656932-3197.jpg"
-            alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/fotos-premium/ingeniero-reparacion-profesional-reparando-tv-rota_656932-3197.jpg" class="d-block w-100" alt="Técnico LG">
+        <div class="carousel-caption d-none d-sm-block">
+          <h2>Servicio técnico LG</h2>
+          <h4 class="w-auto mx-auto">Nos desplazamos a su domicilio para revisar su electrodomésticos</h4>
+          <a class="btn btn-danger d-flex justify-content-center align-items-center w-50 mx-auto" href="https://wa.me/573143402137/?text=Hola%20servicio%20técnico%20LG%20Bogotá" target="_blank">
+            <div class="me-1">
+              <img loading="lazy" src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconowhatsapp.webp" alt="icono whatsapp" width="16px">
+            </div>
+            <div class="flex-grow-0">
+              WhatsApp
+            </div>
+          </a>
         </div>
       </div>
     </div>
-    <div class="content">
-      <h1><strong>Servicio técnico LG</strong></h1>
-      <p>Nos desplazamos a su domicilio para revisar su televisor
-      </p>
-      <div class="contact">
-        <a href="https://wa.me/573143402137/?text=Hola%20servicio%20técnico%20LG%20Bogotá" target="_blank">
-          <img loading="lazy" src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconowhatsapp.webp"
-            alt="icono whatsapp" />
-          WhatsApp
-        </a>
-      </div>
   </div>
-  </header>
 
-  <div class="llamar">
-    <img loading="lazy"
+  <div class="llamar justify-content-center align-items-center">
+    <img
+      class="me-1"
+      loading="lazy"
       src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconollamadatelefonica.webp"
-      alt="icono llamada-telefonica" />
+      alt="icono llamada-telefonica"
+      width="16px"
+      />
     <a href="tel:+573143402137">Solicitar servicios al 3143402137</a>
   </div>
 
@@ -283,10 +295,14 @@
     </div>
   </div>
 
-  <div class="llamar">
-    <img loading="lazy"
+  <div class="llamar justify-content-center align-items-center">
+    <img
+      class="me-1"
+      loading="lazy"
       src="https://resourceslandingpages.s3.amazonaws.com/lgsoportetecnico/iconollamadatelefonica.webp"
-      alt="icono llamada-telefonica" />
+      alt="icono llamada-telefonica"
+      width="16px"
+      />
     <a href="tel:+573143402137">Solicitar servicios al 3143402137</a>
   </div>
 
@@ -361,18 +377,10 @@
   <footer>
     <div class="container">
       <p>
-        &copy; 2023 Soporte técnico LG Bogotá. Todos los derechos reservados.
+        &copy; 2024 Soporte técnico LG Bogotá. Todos los derechos reservados.
       </p>
     </div>
   </footer>
 </body>
-<script>
-  const toggleButton = document.getElementById('toggle-button');
-  const naviList = document.getElementById('navi-list');
-
-  toggleButton.addEventListener('click', () => {
-    naviList.classList.toggle('active');
-  });
-</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </html>
